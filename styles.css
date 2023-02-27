@@ -1,0 +1,136 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    
+    line-height: 1.5;
+}
+.container-fluid {
+    padding: 3% 10%;
+
+}
+/* Nav Bar */
+.navbar {
+    padding-bottom: 4.5rem;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item {
+    padding: 15px;
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+/* buttons */
+
+.dl-btn {
+    margin: 5% 3% 5% 0;
+}
+.iphone {
+    width: 300px;
+    transform: rotate(15deg);
+    position: absolute;
+    right: 15%;
+}
+/* features */
+#features {
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+    
+}
+.ico {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.ico:hover {
+    color: #ff4c68;
+}
+h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.pfeat {
+    color: #8f8f8f;
+    margin-top: 1rem;
+}
+/* Testimonial */
+
+#testimonials {
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+    
+
+}
+h2 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+.test-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo {
+    width: 15%;
+    margin: 0 50px 10px 50px;
+}
+.carousel-item {
+    height: 32rem;
+    padding: 7% 15%;
+}
+#pricing {
+    text-align: center;
+    padding: 100px;
+}
+.prc-clm {
+    padding: 3% 2%;
+}
+@media (max-width: 1130px) {
+    #title {
+        text-align: center;
+    }
+    .iphone {
+        position: static;
+        transform: rotate(0);
+    }
+}
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+.cta-h {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+.sc-ico {
+    padding: 20px 15px;
+}
